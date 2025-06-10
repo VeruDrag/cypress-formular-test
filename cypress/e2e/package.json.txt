@@ -1,0 +1,10 @@
+{
+  "name": "cypress-formular-test",
+  "version": "1.0.0",
+  "scripts": {
+    "test": "cypress run"
+  },
+  "devDependencies": {
+    "cypress": "^14.4.1"
+  }
+}
