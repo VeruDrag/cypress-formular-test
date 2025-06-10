@@ -1,20 +1,20 @@
 # Cypress – Můj první jednoduchý test
 
-🧪 Ukázkový E2E test pro testování formuláře na stránce [https://demoqa.com/text-box](https://demoqa.com/text-box) pomocí Cypressu.
+🧪 Jednoduchý test formuláře na stránce https://demoqa.com/text-box pomocí Cypressu.
 
-## Co test obsahuje
+## Co test kontroluje
 
-✔️ **Pozitivní scénář**  
-- Vyplnění polí formuláře (jméno, e-mail, adresa)  
-- Odeslání formuláře  
-- Ověření zobrazeného výstupu
+✅ Pozitivní scénář:
+- Vyplnění jména, e-mailu a adresy
+- Odeslání formuláře
+- Ověření výstupu
 
-❌ **Negativní scénář**  
-- Vyplnění neplatného e-mailu  
-- Kontrola, že se formulář neodešle (HTML5 validace)
+❌ Negativní scénář:
+- Neplatný e-mail
+- Ověření, že se formulář neodešle (HTML5 validace)
 
 ## Jak spustit
 
-1. Nainstaluj závislosti (pokud nejsou):
-   ```bash
-   npm install
+```bash
+npm install
+npx cypress open
